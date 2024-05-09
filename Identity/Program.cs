@@ -15,8 +15,7 @@ builder.Services.AddAuthentication()
                 .AddBearerToken(IdentityConstants.BearerScheme);
 
 builder.Services.AddSendGrid(options =>
-    options.ApiKey = builder.Configuration["SendGridKey"]
-                     ?? throw new Exception("The 'SendGridKey' is not configured")
+    options.ApiKey = builder.Configuration["SendGridKey"]!
 );
 
 builder.Services.AddTransient<IEmailSender, EmailSender>();
