@@ -13,4 +13,7 @@ class AppDbContext : IdentityDbContext<IdentityUser>
 
 
 
-class AppUser : IdentityUser { }
+class AppUser : IdentityUser 
+{
+    public int MyProperty { get; set; }
+}
