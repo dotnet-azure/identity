@@ -16,4 +16,4 @@ This repository showcases most of the .NET8 Identity features, providing a compr
 For a detailed walkthrough and explanation of these features, please refer to the accompanying Medium article.
 
 ## Medium Article
-[https://medium.com/@mohamed.ebrahim.mohsen/net8-identity-register-login-email-confirmation-and-two-factor-authentication-2fa-c8acfbc3e14c](#)
+[Link to Medium Article](https://medium.com/@mohamed.ebrahim.mohsen/net8-identity-register-login-email-confirmation-and-two-factor-authentication-2fa-c8acfbc3e14c)
